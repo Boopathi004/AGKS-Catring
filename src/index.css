@@ -2110,3 +2110,32 @@ footer.app-footer {
     transform: scale(1.1);
   }
 }
+
+
+/* Responsive tweaks for menu items */
+.menu-item-image {
+  width: 56px;
+  height: 56px;
+}
+
+@media (max-width: 576px) {
+  .menu-item-image {
+    width: 80px;
+    height: 80px;
+  }
+  .menu-item-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  .menu-item-dots {
+    display: none;
+  }
+  .menu-item-tag {
+    margin-top: 0.25rem;
+  }
+  .menu-item-row {
+    align-items: flex-start;
+  }
+}
+

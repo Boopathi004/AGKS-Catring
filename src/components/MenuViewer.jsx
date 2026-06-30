@@ -626,15 +626,12 @@ export default function MenuViewer({ language }) {
             <div
               key={`${activeTab}-${idx}`}
               className="menu-item-row"
-              style={{ display: 'flex', flexDirection: 'row', gap: '1.25rem', alignItems: 'center', position: 'relative' }}
               onMouseEnter={() => handleMouseEnter(idx)}
               onMouseLeave={handleMouseLeave}
             >
               {/* Dish Small Circular Image with Gold Border */}
-              <div style={{
+              <div className="menu-item-image" style={{
                 flexShrink: 0,
-                width: '56px',
-                height: '56px',
                 borderRadius: '50%',
                 border: '2px solid var(--color-gold)',
                 overflow: 'hidden',
