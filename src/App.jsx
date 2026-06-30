@@ -388,8 +388,8 @@ export default function App() {
                   id: 2,
                   qEN: 'What is the minimum guest count for booking?',
                   qTA: 'முன்பதிவு செய்வதற்கான குறைந்தபட்ச நபர் எண்ணிக்கை என்ன?',
-                  aEN: 'We accept bookings for events starting from a minimum of 50 guests. We cater for grand weddings with 1000+ guests as well as small housewarming ceremonies and family gatherings.',
-                  aTA: 'குறைந்தபட்சம் 50 நபர்கள் கொண்ட சிறிய நிகழ்ச்சிகள் முதல் 1000+ நபர்கள் வரையிலான பிரம்மாண்டமான திருமண விழாக்கள் வரை அனைத்து சுப நிகழ்ச்சிகளுக்கும் சிறந்த முறையில் சமையல் செய்து தருகிறோம்.'
+                  aEN: 'We accept bookings for events starting from a minimum of 20 guests. We cater for grand weddings with 1000+ guests as well as small housewarming ceremonies and family gatherings.',
+                  aTA: 'குறைந்தபட்சம் 20 நபர்கள் கொண்ட சிறிய நிகழ்ச்சிகள் முதல் 1000+ நபர்கள் வரையிலான பிரம்மாண்டமான திருமண விழாக்கள் வரை அனைத்து சுப நிகழ்ச்சிகளுக்கும் சிறந்த முறையில் சமையல் செய்து தருகிறோம்.'
                 },
                 {
                   id: 3,

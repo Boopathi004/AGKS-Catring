@@ -260,9 +260,9 @@ export default function BookingForm({ language, onBookingSuccess }) {
               </select>
             </div>
             <div className="form-group">
-              <label>{language === 'en' ? 'Expected Guest Count (Min 50)' : 'எதிர்பார்க்கப்படும் விருந்தினர்கள் (குறைந்தது 50)'}</label>
-              <input type="number" min="50" className="form-input" value={guestCount}
-                onChange={e => setGuestCount(Math.max(50, parseInt(e.target.value) || 50))} />
+              <label>{language === 'en' ? 'Expected Guest Count (Min 20)' : 'எதிர்பார்க்கப்படும் விருந்தினர்கள் (குறைந்தது 20)'}</label>
+              <input type="number" min="20" className="form-input" value={guestCount}
+                onChange={e => setGuestCount(Math.max(20, parseInt(e.target.value) || 20))} />
             </div>
             <div className="form-group" style={{ gridColumn: '1 / -1' }}>
               <label>{language === 'en' ? 'Venue / Location (optional)' : 'விழா மண்டபம் / இடம் (விருப்பமானது)'}</label>
